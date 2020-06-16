@@ -1,11 +1,11 @@
 ---
-title: "Testing the second note"
+title: "second note"
 ---
 
 ## Iussit simul res
 
 Lorem markdownum volucrem lucem aliae [et](http://iaculum.io/propulit.aspx)
-vagatur. Animi motu, ambobus tum ausus oro sequenti avem.
+vagatur. Animi motu, ambobus tum ausus oro sequenti avem.[[first note]]
 
 Nullo est *effigiem illos vidit* Laestrygonis taedia et [stupet
 vidit](http://atras.org/inhonoratitanta), dederat. Accepit vipereis simulati,

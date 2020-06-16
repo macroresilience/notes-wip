@@ -1,12 +1,12 @@
 ---
-title: "Testing the first note"
+title: "first note"
 ---
 
 Lorem markdownum curvae Pallante monitisque, nefas, plangentibus subdita saepe.
 Ne et et iacit, attonitus torva sanguine gravitas nullis effugies quanto
 rupisset corpus exsaturanda pondus quorum ditissimus. Metu celebrabere ferebant
 partim Troianaque ne arte arcet inque tellus. At vindex, igne semper, publica
-latus, aquis.
+latus, aquis. [[second note]]
 
 - Numero innumeris vulnus tune dat
 - Letique satis aderat
