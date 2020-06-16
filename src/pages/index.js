@@ -11,7 +11,6 @@ export default function Home({ data }) {
         <h1
           css={css`
             display: inline-block;
-            border-bottom: 1px solid;
           `}
         >
           Notes and Work-in-Progress
