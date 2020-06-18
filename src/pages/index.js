@@ -13,7 +13,7 @@ export default function Home({ data }) {
             display: inline-block;
           `}
         >
-          Notes and Work-in-Progress
+          {data.site.siteMetadata.title}
         </h1>
         <h4>{data.allFile.totalCount} Notes</h4>
         {data.allFile.edges.map(({ node }) => (
@@ -72,5 +72,10 @@ export const query = graphql`
     }
     totalCount
   }
+  site {
+      siteMetadata {
+        title
+      }
+    }
 }
 `
