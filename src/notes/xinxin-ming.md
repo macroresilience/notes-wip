@@ -1,5 +1,6 @@
 ---
 title: "Xinxin Ming"
+tags: ["zen"]
 ---
 
 https://en.wikipedia.org/wiki/Xinxin_Ming
