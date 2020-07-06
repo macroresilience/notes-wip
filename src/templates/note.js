@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 
 export default function Note({ data }) {
   const note = data.markdownRemark
+  const { gitModifiedTime, gitCreatedTime } = data.markdownRemark.fields;
   return (
     <Layout>
       <SEO title={note.frontmatter.title} description={note.excerpt} />
@@ -17,7 +18,7 @@ export default function Note({ data }) {
             color: #bbb;
           `}
         >
-          created {note.parent.birthTime}, modified {note.parent.modifiedTime}.
+          created {gitCreatedTime}, modified {gitModifiedTime}.
         </p>
         <p
           css={css`
@@ -46,11 +47,9 @@ export const query = graphql`
         tags
       }
       excerpt
-      parent {
-        ... on File {
-          modifiedTime(fromNow: true)
-          birthTime(fromNow: true)
-        }
+      fields {
+        gitModifiedTime(fromNow: true)
+        gitCreatedTime(fromNow: true)
       }
     }
   }
