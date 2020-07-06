@@ -8,26 +8,15 @@ export default function Home({ data }) {
   return (
     <Layout>
       <div>
-        <h1
-          css={css`
-            display: inline-block;
-          `}
-        >
-          {data.site.siteMetadata.title}
-        </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Notes</h4>
+        <ul>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
+          <li key={node.id}>
             <Link
               to={node.fields.slug}
-              css={css`
-                text-decoration: none;
-                color: inherit;
-              `}
             >
-              <h3
+              <h4
                 css={css`
-                  margin-bottom: ${rhythm(1 / 4)};
+                  margin-top: ${rhythm(1 / 4)};
                 `}
               >
                 {node.frontmatter.title}{" "}
@@ -38,11 +27,11 @@ export default function Home({ data }) {
                 >
                   — modified {node.fields.gitModifiedTime}
                 </span>
-              </h3>
-              <p>{node.excerpt}</p>
+              </h4>
             </Link>
-          </div>
+          </li>
         ))}
+        </ul>
       </div>
     </Layout>
   )

@@ -4,6 +4,7 @@ import { css } from "@emotion/core"
 import kebabCase from "lodash/kebabCase"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
 
 export default function Note({ data }) {
   const note = data.markdownRemark
@@ -12,10 +13,17 @@ export default function Note({ data }) {
     <Layout>
       <SEO title={note.frontmatter.title} description={note.excerpt} />
       <div>
-        <h1>{note.frontmatter.title}</h1>
+        <h2
+          css={css`
+            margin-bottom: ${rhythm(1/2)};
+          `}
+        >
+          {note.frontmatter.title}
+        </h2>
         <p
           css={css`
             color: #bbb;
+            margin-bottom: ${rhythm(1/2)};
           `}
         >
           created {gitCreatedTime}, modified {gitModifiedTime}.
@@ -23,6 +31,7 @@ export default function Note({ data }) {
         <p
           css={css`
             color: #bbb;
+            margin-bottom: ${rhythm(2)};
           `}
         >
           Tags:{" "}
