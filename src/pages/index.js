@@ -15,11 +15,11 @@ export default function Home({ data }) {
         >
           {data.site.siteMetadata.title}
         </h1>
-        <h4>{data.allFile.totalCount} Notes</h4>
-        {data.allFile.edges.map(({ node }) => (
+        <h4>{data.allMarkdownRemark.totalCount} Notes</h4>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
-              to={node.childMarkdownRemark.fields.slug}
+              to={node.fields.slug}
               css={css`
                 text-decoration: none;
                 color: inherit;
@@ -30,16 +30,16 @@ export default function Home({ data }) {
                   margin-bottom: ${rhythm(1 / 4)};
                 `}
               >
-                {node.childMarkdownRemark.frontmatter.title}{" "}
+                {node.frontmatter.title}{" "}
                 <span
                   css={css`
                     color: #bbb;
                   `}
                 >
-                  — {node.birthTime}
+                  — modified {node.fields.gitModifiedTime}
                 </span>
               </h3>
-              <p>{node.childMarkdownRemark.excerpt}</p>
+              <p>{node.excerpt}</p>
             </Link>
           </div>
         ))}
@@ -50,32 +50,26 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query {
-  allFile(sort:{fields:[modifiedTime], order:DESC}) {
-    edges {
-      node {
-        id
-        birthTime(fromNow: true)
-        modifiedTime(fromNow: true)
-        childMarkdownRemark {
+    allMarkdownRemark(sort:{fields:[fields___gitModifiedTime], order:DESC}) {
+      edges {
+        node {
           frontmatter {
             title
-          }
-          fields {
-            slug
           }
           excerpt
           fields {
             slug
+            gitModifiedTime(fromNow: true)
+            gitCreatedTime(fromNow: true)
           }
         }
       }
-    }
     totalCount
   }
   site {
-      siteMetadata {
-        title
-      }
+    siteMetadata {
+      title
     }
+  }
 }
 `
