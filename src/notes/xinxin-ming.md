@@ -3,12 +3,11 @@ title: "Xinxin Ming"
 tags: ["zen", "meditation"]
 ---
 
-https://en.wikipedia.org/wiki/Xinxin_Ming
+<https://en.wikipedia.org/wiki/Xinxin_Ming>
 
-easiest to read translation
-https://web.csulb.edu/~wweinste/HsinHsinMing.html
+[easiest to read translation](https://web.csulb.edu/~wweinste/HsinHsinMing.html)
 
-Early Chan properly understood is an argument to not take the stories and categorisation of the left brain too seriously (ref No Self, No Problem)
+Early Chan properly understood is an argument to not take the stories and categorisation of the left brain too seriously (ref No Self, No Problem).
 
 > The Great Way is not difficult for those who have no preferences.  When love and hate are both absent, everything becomes clear and undisguised.  Make the smallest distinction, however, and heaven and earth are set infinitely apart. If you wish to see the truth, then hold no opinions for, or against, anything.  To set up what you like against what you dislike is the disease of the mind.  When the deep meaning of things is not understood, the mind's essential peace is disturbed to no avail.
 
