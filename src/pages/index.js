@@ -14,21 +14,15 @@ export default function Home({ data }) {
             <Link
               to={node.fields.slug}
             >
-              <h4
-                css={css`
-                  margin-top: ${rhythm(1 / 4)};
-                `}
-              >
-                {node.frontmatter.title}{" "}
-                <span
-                  css={css`
-                    color: #bbb;
-                  `}
-                >
-                  — modified {node.fields.gitModifiedTime}
-                </span>
-              </h4>
+              {node.frontmatter.title}{" "}
             </Link>
+            <span
+              css={css`
+                color: #bbb;
+              `}
+            >
+              — modified {node.fields.gitModifiedTime}
+            </span>
           </li>
         ))}
         </ul>
