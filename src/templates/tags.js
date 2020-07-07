@@ -15,7 +15,7 @@ const Tags = ({ pageContext, data }) => {
   return (
     <Layout>
       <div>
-        <h1>{tagHeader}</h1>
+        <h3>{tagHeader}</h3>
         <ul>
           {edges.map(({ node }) => {
             const { slug } = node.childMarkdownRemark.fields
