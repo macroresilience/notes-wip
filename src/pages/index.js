@@ -1,16 +1,24 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 
 export default function Home({ data }) {
   return (
     <Layout>
       <div>
-        <ul>
+        <ul
+          css={css`
+            margin-left: 0;
+          `}
+        >
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <li key={node.id}>
+          <li 
+            key={node.id}
+            css={css`
+              list-style-type: none;
+            `}
+          >
             <Link
               to={node.fields.slug}
             >
