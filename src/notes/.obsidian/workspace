@@ -1,0 +1,80 @@
+{
+  "main": {
+    "id": "03087b86fd23c2c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c22973a3ac96bc26",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "meditation-and-daydreaming.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3d89320fb807e9e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "5abd01e12eade42c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47d811d6b0425a19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4572d8af84742cb6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "663a32c32868d1b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "30d94777cda4f098",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c74cf1e792ce5dcb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "meditation-and-daydreaming.md",
+    "kiplings-if-and-buddhism.md",
+    "xinxin-ming.md",
+    "Untitled.md"
+  ]
+}
