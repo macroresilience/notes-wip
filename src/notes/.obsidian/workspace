@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "c22973a3ac96bc26",
+        "id": "d0bab21a882692c6",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "meditation-and-daydreaming.md",
+            "file": "repression-vs-being-natural.md",
             "mode": "source"
           }
         }
@@ -63,6 +63,14 @@
               "type": "backlink",
               "state": {}
             }
+          },
+          {
+            "id": "a9bc1aac42018a3a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
           }
         ]
       }
@@ -72,9 +80,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "meditation-and-daydreaming.md",
-    "kiplings-if-and-buddhism.md",
-    "xinxin-ming.md",
+    "repression-vs-being-natural.md",
+    "the-good-and-the-bad-go-together.md",
+    "music-and-buddhism.md",
+    "tantra-vs-buddhism.md",
     "Untitled.md"
   ]
 }
