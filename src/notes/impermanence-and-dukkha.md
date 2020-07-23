@@ -1,5 +1,5 @@
 ---
-title: Impermanence and Dukkha
+title: "Impermanence and Dukkha"
 tags: ["buddhism", "heraclitus", "zen"]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Tantra vs Buddhism
+title: "Tantra vs Buddhism"
 tags: ["tantra", "buddhism"]
 ---
 

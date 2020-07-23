@@ -1,5 +1,5 @@
 ---
-title: Music and Buddhism
+title: "Music and Buddhism"
 tags: ["buddhism"]
 ---
 

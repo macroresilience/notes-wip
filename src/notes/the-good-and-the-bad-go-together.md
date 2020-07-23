@@ -1,5 +1,5 @@
 ---
-title: The good and the bad go together
+title: "The good and the bad go together"
 tags:["yin-yang"]
 ---
 

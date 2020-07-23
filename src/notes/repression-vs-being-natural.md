@@ -1,5 +1,5 @@
 ---
-title: Repression vs Being Natural
+title: "Repression vs Being Natural"
 tags: ["tantra", "buddhism", "taoism", "confucianism"]
 ---
 
