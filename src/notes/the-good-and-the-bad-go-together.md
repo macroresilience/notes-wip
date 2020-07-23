@@ -1,6 +1,6 @@
 ---
 title: "The good and the bad go together"
-tags:["yin-yang"]
+tags: ["yin-yang"]
 ---
 
 Modernity and the Holocaust
